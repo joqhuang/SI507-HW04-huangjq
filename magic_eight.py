@@ -15,4 +15,4 @@ while user_question != "quit":
     if user_question[-1] != "?":
         print("I'm sorry, I can only answer questions. Or enter quit to end the program.")
     else:
-        PickRandomAnswer(PossibleAnswers)
+        print(PickRandomAnswer(PossibleAnswers))
